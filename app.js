@@ -21,7 +21,7 @@ if (isThanhCong == '00' || isThanhCong2 == '00') {
 }
 console.log(maHoaDon);
 
-const url = 'https://testkidsapi.vtechedu.vn//DSDonHang/vnpay_response';
+const url = 'https://testkidsapi.vtechedu.vn/DSDonHang/vnpay_response';
 
 // Query params cần truy vấn
 const queryParams = { vnp_TxnRef: maHoaDon, vnp_Amount: (tien / 100), vnp_ResponseCode: isThanhCong };
